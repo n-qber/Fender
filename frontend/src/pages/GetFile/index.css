@@ -1,0 +1,45 @@
+h2{
+    font-size: calc(10px + 3vmin);
+    font-weight: 500;
+}
+
+.line{
+    display:flex;
+    width: 100%;
+    padding: 0;
+}
+article{
+    width:50%;
+    max-height: 730px;
+    text-align: left;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.ad{
+    width: 25%;
+}
+button{
+    margin: 10px 7px;
+    width: 41%;
+    height: 50px;
+    font-size: large;
+    font-weight: 100;
+    color: #BBB;
+    background-color: #383c44;
+    border: 6px solid #282c34;
+    border-radius: 10px;
+    outline-width: 0;
+    transition: .2s;
+}
+button:hover{
+    background-color: #484c54;
+    border: 6px solid #383c44;
+    font-weight: 100;
+    transition: .2s;
+}
+section{
+    overflow: auto;
+}

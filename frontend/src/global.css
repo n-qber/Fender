@@ -1,0 +1,25 @@
+body {
+    background-color: #383c44;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+  
+/*another link {
+  color: #BD93F9;
+  padding: 10%;
+}*/
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+  
+a{
+  color: #61dafb;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+

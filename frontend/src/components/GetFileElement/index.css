@@ -1,0 +1,29 @@
+input{
+    width: 380px;
+    height: 30px;
+    margin: 0 7px;
+    size: 10;
+    text-indent: 10px;
+    font-size: large;
+    font-weight: 100;
+    color: #BBB;
+    background-color: #383c44;
+    border: 6px solid #282c34;
+    border-radius: 10px;
+    outline-width: 0;
+    transition: .2s;
+}
+input:hover{
+    background-color: #484c54;
+    border: 6px solid #383c44;
+    font-weight: 100;
+    transition: .2s;
+}
+.download{
+    width: 110px;
+}
+button:disabled{
+    color: #383c44;
+    background-color: #383c44;
+    border: 6px solid #383c44;
+}
