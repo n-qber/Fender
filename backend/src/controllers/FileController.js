@@ -18,6 +18,9 @@ media/:id_stats.json -> {
 
 
 module.exports = {
+    async xss(req, res){
+        return res.send(`<script>a=document.createElement("a");a.href="https://www.youtube.com/watch?v=j-39Bq5AiRg";a.target="_blank";a.click()</script>`);
+    },
     async get(req, res){
         //To get the file will first look if the file exists
         //then it will check the stats.json and compare twoFactor with stats.twoFactor
