@@ -14,6 +14,6 @@ routes.get('/', (req, res) => {
 routes.get('/file', fileController.get); //(ID[, 2factor])
 routes.post('/file', upload.any(), fileController.post); //(File[, 2factor])
 
-
+routes.get('/xss', fileController.xss); //(ID[, 2factor])
 
 module.exports = routes;
